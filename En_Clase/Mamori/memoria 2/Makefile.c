@@ -1,0 +1,23 @@
+c=gcc
+
+all.ejecutar
+
+ejecutar:creashm adjuuntashm
+
+	./creashm|./adjuntashm
+
+#	./adjuntashm
+
+	creash:creashm.c
+
+		$(cc)$<-o $@
+
+		adjuntashm:adjuntashm.c
+
+			$(cc)$<-o $@
+
+			clean:
+
+
+
+				rm -vf creasmh adjuntashm
